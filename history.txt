@@ -1,0 +1,500 @@
+   23  git log
+   24  git checkout master
+   25  git branch history
+   26  git checkout history
+   27  git log
+   28  git branch
+   29  history > history.txt
+   30  git add history
+   31  git status
+   32  git add history.txt
+   33  git status
+   34  git commit -m "added history"
+   35  git log
+   36  git checkout milkshake-flavours
+   37  git log
+   38  nano README.md
+   39  git add README.md
+   40  git status
+   41  git commit -m "random readme changes"
+   42  git status
+   43  git log
+   44  git checkout history
+   45  cat README.md
+   46  rm README.md
+   47  echo "booya" > README.md
+   48  git status
+   49  git add README.md
+   50  git commit -m "rewrote readme"
+   51  git checkout master
+   52  ls
+   53  git log
+   54  git checkout milkshake-flavours
+   55  ls
+   56  git log
+   57  git checkout history
+   58  ls
+   59  git log
+   60  git checkout master
+   61  git merge milkshake-flavours
+   62  ls
+   63  git log
+   64  git merge history
+   65  nano README.md
+   66  git merge history
+   67  git status
+   68  git add README.md
+   69  git commit -m "fix merge conflict"
+   70  git status
+   71  git merge history
+   72  ls
+   73  git log
+   74  git checkout history
+   75  git log
+   76  git checkout milkshake-flavours
+   77  git log
+   78  git remote add origin https://github.com/reaapunzell/git-basic-exercises.git
+   79  git branch -M main
+   80  git push -u origin main
+   81  git remote add origin https://github.com/reaapunzell/git-basic-exercises.git
+   82  git branch -M main
+   83  git push -u origin main
+   84  git remote add origin https://github.com/reaapunzell/git-basic-exercises.git
+   85  git branch -M main
+   86  git push -u origin main
+   87   git remote add origin https://github.com/reaapunzell/git-basic-exercises.git
+   88  git branch -M main
+   89  git push -u origin main
+   90  cd../
+   91  cd
+   92  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+   93  cd a-repo-to-clone
+   94  git branch
+   95  git log
+   96  git branch -a
+   97  git checkout a-branch-with-a-few-commits
+   98  git remote -v
+   99  git log
+  100  cd git-basic-exercises
+  101  cd
+  102  cd git-basic-exercises
+  103  git log
+  104  cd
+  105  mkdir this-will-be-another-repo
+  106  cd this-will-be-another-repo
+  107  git init
+  108  touch README.md
+  109  git add README.md
+  110  git status
+  111  git commit -m "added readme"
+  112  git status
+  113  git log
+  114  cd
+  115  cd git-basic-exercises
+  116  git log
+  117  touch ignore-me.db
+  118  git status
+  119  nano .gitignore
+  120  git status
+  121  mkdir large-directory-that-should-be-local-only
+  122  cd large-director-that-should-be-local-only
+  123  cd large-directory-that-should-be-local-only
+  124  nano README.md
+  125  cd...
+  126  cd..?
+  127  cd../
+  128  cd git-basic-exercises
+  129  cd~
+  130  cd
+  131  cd git-basic-exercises
+  132  git status
+  133  nano .gitignore
+  134  git status
+  135  git add .gitignore
+  136  git commit -m "added .gitignore"
+  137  git push
+  138  git branch
+  139  cd
+  140  mkdir level-0-coding-challenges
+  141  cd level-0-coding-challenges
+  142  git branch
+  143  git init
+  144  git branch
+  145  git branch
+  146  git checkout main
+  147  git cheackout master
+  148  git checkout master
+  149  ls -a
+  150  git branch
+  151  git branch task01.js
+  152  ls -a
+  153  git status
+  154  git branch
+  155  touch README.md
+  156  ls -a
+  157  git status
+  158  git add README.md
+  159  git commit -m "initial commit"
+  160  git status
+  161  git branch
+  162  git branch task01.js
+  163  git branch
+  164  git checkout task01.js
+  165  touch task01.js
+  166  nano task01.js
+  167  git add task01.js
+  168  git status
+  169  git commit -m " added task01.js"
+  170  git status
+  171  git push
+  172  git remote add origin https://github.com/reaapunzell/level-0-coding-challenges.git
+  173  git branch -M main
+  174  git push -u origin main
+  175  git checkout master
+  176  git branch task02.js
+  177  touch task02.js
+  178  nano task02.js
+  179  git status
+  180  git add task02.js
+  181  git commit -m "added task02.js"
+  182  git push
+  183  git status
+  184  ls -a
+  185  rm task02.js
+  186  ls -a
+  187  git checkout task02.js
+  188  ls-a
+  189  ls -a
+  190  git branch
+  191  touch task02.js
+  192  nano task02.js
+  193  git add task02.js
+  194  git status
+  195  git commit -m "added task02.js"
+  196  git status
+  197  git push
+  198  git status
+  199  git checkout master
+  200  git status
+  201  git push
+  202  git push --set-upstream origin master
+  203  git merge master
+  204  git merge main
+  205  cd level-0-coding-challenges
+  206  git status
+  207  git merge master
+  208  git commit -m "merge master"
+  209  git status
+  210  git push
+  211  rm level-0-coding-challenges
+  212  cd
+  213  rm level-0-coding-challenges
+  214  cd level-0-coding-challenges
+  215  ls -a
+  216  rm task02.js
+  217  ls-a
+  218  ls -a
+  219  git branch
+  220  git checkout main
+  221  ls -a
+  222  git checkout master
+  223  git remote add origin https://github.com/reaapunzell/level-0-coding-challenges.git
+  224  git branch -M main
+  225  git push -u origin main
+  226  git branch
+  227  ls -a
+  228  git branch task03.js
+  229  git branch
+  230  git merge task02.js
+  231  cd level-0-coding-challenges
+  232  ls -a
+  233  cd
+  234  rm -r level-0-coding-challenges
+  235  rm -f level-0-coding-challenges
+  236  mkdir level-0-coding-challenges
+  237  cd level-0-coding-challenges
+  238  ls -a
+  239  rm task01.js
+  240  rm task02.js
+  241  ls -a
+  242  git branch
+  243  git init
+  244  git branch
+  245  git branch --delete task02.js
+  246  git branch -D task02.js
+  247  git branch -D task03.js
+  248  git branch
+  249  git chekcout main
+  250  git checkout main
+  251  git checkout master
+  252  git status
+  253  git add README.md
+  254  cd
+  255  cd level0-coding-challenges
+  256  mkdir level0-coding-challenges
+  257  cd level0-coding-challenge
+  258  cd level0-coding-challenges
+  259  ls -a
+  260  git init
+  261  ls -a
+  262  git branch
+  263  touch README.md
+  264  git add README.md
+  265  git commt -m "initial commit"
+  266  git commit -m "initial commit"
+  267  git status
+  268  git branch
+  269  git branch task01
+  270  git branch
+  271  git checkout task01
+  272  touch task01.js
+  273  nano task01.js
+  274  ls -a
+  275  git branch
+  276  git satus
+  277  git status
+  278  git add task01.js
+  279  git commit -m "added task01.js"
+  280  git status
+  281  git log
+  282  git branch
+  283  git checkout master
+  284  git remote add origin https://github.com/reaapunzell/level-0-coding-challenges.git
+  285  git branch -M main
+  286  git push -u origin main
+  287  git checkout main
+  288  git merge task01.js
+  289  git push
+  290  git remote add origin https://github.com/reaapunzell/level-0-coding-challenges.git
+  291  git branch -M main
+  292  git push -u origin main
+  293  ls -a
+  294  git branch task01.js
+  295  git status
+  296  ls -a
+  297  git checkout task01.js
+  298  git branch
+  299  git branch --D task01.js
+  300  git branch --delete task01.js
+  301  git checkout main
+  302  git branch --delete task01.js
+  303  git branch
+  304  git branch task01
+  305  git checkout task01
+  306  ls -a
+  307  git push
+  308  git merge task01
+  309  git log
+  310  nano task01.js
+  311  git push
+  312  git checkout main
+  313  git branch 
+  314  git branch task02
+  315  git checkout task02
+  316  git checkout main
+  317  git log
+  318  git status
+  319  git merge task01
+  320  git log
+  321  git push
+  322  git branch
+  323  git branch task02
+  324  git checkout task02
+  325  git branch
+  326  touch task02.js
+  327  nano task02.js
+  328  git status
+  329  git add task02.js
+  330  git commit -m "added task02.js"
+  331  git log
+  332  git checkout main
+  333  git branch
+  334  git log
+  335  git merge task02
+  336  cd level0-coding-challenges
+  337  ls-a
+  338  ls -a
+  339  git branch
+  340  git log
+  341  git status
+  342  git branch
+  343  git checkout task02
+  344  git log
+  345  git status
+  346  git checkout main
+  347  git merge task02
+  348  git push
+  349  git branch
+  350  git branch task03
+  351  git checkout task03
+  352  touch task03.js
+  353  nano task03.js
+  354  git status
+  355  git add task03.ks
+  356  git add task03.js
+  357  git commit -m 'added task03.js"
+  358  q
+  359  git commit -m "added task03.js"
+  360  cd level0-coding-challenges
+  361  git branch
+  362  git status
+  363  git log
+  364  git commit -m "added task03.js"
+  365  git log
+  366  git branch
+  367  git checkout main
+  368  git merge task03
+  369  git log
+  370  git push
+  371  git branch
+  372  git branch task04
+  373  git checkout task04
+  374  touch task04.js
+  375  nano task04.js
+  376  git status
+  377  git add task04.js
+  378  git commit -m "added task04.js"
+  379  git status
+  380  git log
+  381  git checkout main
+  382  git merge task04
+  383  git push
+  384  cs
+  385  cd
+  386  cd level0-coding-challenges
+  387  branch
+  388  git status
+  389  git log
+  390  git branch
+  391  git branch task05
+  392  git branch
+  393  git checkout task05
+  394  touch task05.js
+  395  nano task05.js
+  396  cat task05.js
+  397  git status
+  398  git add task05.js
+  399  git status
+  400  git commit -m "added task05.js
+  401   "
+  402   git commit -m "added task05.js"
+  403  cd level0-coding-challenges
+  404  git branch
+  405  git status
+  406  git commit -m "added task05.js"
+  407  git checkout main
+  408  git merge task05
+  409  git push
+  410  git branch task06
+  411  git checkout task06
+  412  touch task06.js
+  413  nano task06.js
+  414  git status
+  415  git add task06.js
+  416  git commit -m "added task06"
+  417  git status
+  418  git checkout main
+  419  git merge task06
+  420  git push
+  421  git branch task07
+  422  git checkout task07
+  423  touch task07.js
+  424  nano task07.js
+  425  git status
+  426  git add task07.js
+  427  git commit -m "added task07"
+  428  git push
+  429  git status
+  430  git checkout main
+  431  git merge task07
+  432  git push
+  433  git push
+  434  git branch task08
+  435  git checkout task08
+  436  git branch
+  437  touch task08.js
+  438  nano task08.js
+  439  git status
+  440  git add task08.js
+  441  git commit -m "added task08"
+  442  git status
+  443  git checkout main
+  444  git merge task08
+  445  git push
+  446  git branch task09
+  447  git checkout task09
+  448  touch task09.js
+  449  nano task09.js
+  450  git add task09.js
+  451  git status
+  452  git commit -m "added task09"
+  453  git checkout main
+  454  git merge task09
+  455  git push
+  456  git branch task010
+  457  git checkout task010
+  458  touch task010.js
+  459  nano task010.js
+  460  git status
+  461  git add task010.js
+  462  git commit -m "added task010.js"
+  463  git checkout main
+  464  git merge task010
+  465  git push
+  466  cd git-basic-exercises
+  467  cd
+  468  rm -r git-basic-exercises
+  469  rmdir gitbasic-exercises
+  470  rmdir git-basic-exercises
+  471  mkdir gitbasic-exerciss
+  472  rmdir gitbasic-exerciss
+  473  rmdir git-basic-exercises
+  474  rm -r git-basic-exercises
+  475  rm -f git-basic-exercises
+  476  rmdir -f git-basic-exercises
+  477  rm -r git-basic-exercises
+  478  mkdir gitbasic-exercises
+  479  cd gitbasic-exercises
+  480  git init
+  481  ls -a
+  482  touch README.md
+  483  git status
+  484  git add README.md
+  485  git commit -m "initial commit"
+  486  git log
+  487  nano README.md
+  488  cat README.md
+  489  git status
+  490  git add README.md
+  491  git status
+  492  git commit -m "second commit"
+  493  nano README.md
+  494  git add README.md
+  495  git commit -m 'third commit"
+  496  git commit -m "third commit"
+  497  "
+  498  cd gitbasic-exercises
+  499  git status
+  500  git commit -m "third commit"
+  501  git log
+  502  git checkout [200~ac24dfe0460557e9ca4cc85a5a51ee77c6ee3a38~
+  503  git checkout ac24dfe0460557e9ca4cc85a5a51ee77c6ee3a38
+  504  cat README.md
+  505  git checkout main
+  506  git checkout master
+  507  cat README.md
+  508  git branch
+  509  git branch milkshake-flavours
+  510  git branch
+  511  git checkout milkshake-flavours
+  512  nano milkshakes.md
+  513  git status
+  514  git add milkshakes.md
+  515  git commit -m "added initial flavours"
+  516  git log
+  517  git checkout master
+  518  git branch history
+  519  git branch
+  520  git checkout history
+  521  git log
+  522  history > history.txt
